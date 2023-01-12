@@ -1,7 +1,7 @@
 import { useState } from "react";
 import * as C from "./Components/AppStyled"
 import { Item } from "./types/Item"
-import { category } from "./types/category";
+import { Category } from "./types/Category";
 import { categories } from "./data/categories";
 import { items } from "./data/items";
 import { getCurrentMonth} from "./helpers/dataFilter"

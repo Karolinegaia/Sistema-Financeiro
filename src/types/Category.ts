@@ -1,4 +1,4 @@
-export type category = {
+export type Category = {
     [tag: string]: {
         title: string;
         color: string;
