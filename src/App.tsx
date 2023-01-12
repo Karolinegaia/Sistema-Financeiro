@@ -14,3 +14,5 @@ const App = () => {
     </C.Container>
   );
 }
+
+export default App
