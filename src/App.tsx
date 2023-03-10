@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
-import * as C from "./Components/AppStyled"
+import * as C from "./AppStyled"
 import { Item } from "./types/Item"
 import { Category } from "./types/Category";
 import { categories } from "./data/categories";
 import { items } from "./data/items";
 import { getCurrentMonth, filteredListByMonth} from "./helpers/dataFilter"
+import { TableArea} from "./Components/tableArea/TableArea"
 
 const App = () => {
   const [list, setList] = useState(items);
@@ -22,6 +23,7 @@ const App = () => {
         </C.HedearText>
       </C.Hedear>
       <C.Body>
+      <TableArea/>
         ...
       </C.Body>
     </C.Container>
@@ -29,3 +31,5 @@ const App = () => {
 }
 
 
+
+export default App;
