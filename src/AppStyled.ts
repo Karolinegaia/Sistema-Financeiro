@@ -21,6 +21,6 @@ export const HedearText = styled.h1 `
 `
 export const Body = styled.div `
     margin: auto;
-    max-width: 980px;   
+    width: 82rem;   
     margin-bottom: 50px;
 `
